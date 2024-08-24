@@ -14,4 +14,4 @@ COPY . .
 
 EXPOSE 3500
 
-CMD [ "node", "index.js" ]
+CMD [ "node", "src/server.ts" ]
